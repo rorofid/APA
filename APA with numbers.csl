@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<style xmlns="http://purl.org/net/xbiblio/csl" class="in-text" version="1.0" demote-non-dropping-particle="never" page-range-format="expanded">
+<style xmlns="http://purl.org/net/xbiblio/csl" version="1.0" class="numeric">
   <!-- This style was edited with the Visual CSL Editor (https://editor.citationstyles.org/visualEditor/) -->
   <info>
     <title>APA numbers2</title>
@@ -1731,14 +1731,14 @@
     </group>
   </macro>
   <citation
+  citation-number-ordering="absolute"
   collapse="citation-number"
   disambiguate-add-year-suffix="false"
   disambiguate-add-names="false"
   disambiguate-add-givenname="false"
   givenname-disambiguation-rule="by-cite"
   et-al-min="3"
-  et-al-use-first="1"
-  citation-number-ordering="absolute"/>
+  et-al-use-first="1" />
     <sort>
       <key macro="author-bib" names-min="3" names-use-first="1"/>
       <key macro="date-sort-group"/>
