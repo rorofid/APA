@@ -1730,7 +1730,15 @@
       <text variable="locator"/>
     </group>
   </macro>
-  <citation et-al-min="3" et-al-use-first="1" disambiguate-add-year-suffix="false" disambiguate-add-names="false" disambiguate-add-givenname="false" collapse="year" givenname-disambiguation-rule="by-cite">
+  <citation
+  collapse="citation-number"
+  disambiguate-add-year-suffix="false"
+  disambiguate-add-names="false"
+  disambiguate-add-givenname="false"
+  givenname-disambiguation-rule="by-cite"
+  et-al-min="3"
+  et-al-use-first="1"
+  citation-number-ordering="absolute"/>
     <sort>
       <key macro="author-bib" names-min="3" names-use-first="1"/>
       <key macro="date-sort-group"/>
@@ -1745,7 +1753,11 @@
       </group>
     </layout>
   </citation>
-  <bibliography hanging-indent="true" et-al-min="21" et-al-use-first="19" et-al-use-last="true" entry-spacing="0" line-spacing="2">
+  <bibliography
+  et-al-min="7"
+  et-al-use-first="6"
+  second-field-align="flush"
+  sort="alphabetical"/>
     <sort>
       <key macro="author-bib"/>
       <key macro="date-sort-group"/>
